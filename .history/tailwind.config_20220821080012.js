@@ -9,5 +9,4 @@ module.exports = {
       ...colors,
     },    
   },
-  purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
 };
