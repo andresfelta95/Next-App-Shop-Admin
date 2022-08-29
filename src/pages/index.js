@@ -29,7 +29,7 @@ export default function Home() {
               <nav className="relative flex items-center justify-between sm:h-10 lg:justify-start" aria-label="Global">
                 <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
                   <div className="flex items-center justify-between w-full md:w-auto">
-                    <a href="#">
+                    <a href="/edit">
                       <span className="sr-only">Workflow</span>
                       <img alt="Workflow" className="h-8 w-auto sm:h-10" src="https://tailwindui.com/img/logos/workflow-mark.svg?color=indigo&shade=600" />
                     </a>
@@ -47,7 +47,7 @@ export default function Home() {
                       {item.name}
                     </a>
                   ))}
-                  <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500">
+                  <a href="/login" className="font-medium text-indigo-600 hover:text-indigo-500">
                     Log in
                   </a>
                 </div>
@@ -83,7 +83,7 @@ export default function Home() {
                       </a>
                     ))}
                   </div>
-                  <a href="/login" className="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100">
+                  <a href="@login/" className="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100">
                     Log in
                   </a>
                 </div>
